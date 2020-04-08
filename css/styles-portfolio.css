@@ -15,4 +15,26 @@ html {
 header{
     margin-bottom: 5rem;
 }
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.navbar {
+    background-color: transparent;
+}
+
+.nav-item a.nav-link:hover {
+    color: rgb(33, 204, 7)!important;
+}
+
+.top-nav-collapse {
+    background-color: rgb(11, 16, 24)!important;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        background-color: rgb(11, 16, 24)!important;
+    }
+}
 
