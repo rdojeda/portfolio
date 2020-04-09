@@ -11,7 +11,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
+/************  Section Header - Main Navigation ***************************/
 header{
     margin-bottom: 5rem;
 }
@@ -38,3 +38,28 @@ header{
     }
 }
 
+/******************Section Habilidades ***********************/
+.badge {
+    font-size: 1.5rem;
+    margin-left: 1.15rem;
+    margin-top: 0.75rem;
+}
+
+#habilidades div:nth-child(n) {
+    height: 40px!important;
+    margin-top: 2rem;
+}
+
+#habilidades div:nth-child(1) {
+    width: 80%;
+}
+
+#habilidades div:nth-child(2) {
+    width: 85%;
+}
+#habilidades div:nth-child(3) {
+    width: 75%;
+}
+#habilidades div:nth-child(4) {
+    width: 65%;
+}
