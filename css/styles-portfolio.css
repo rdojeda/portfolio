@@ -63,25 +63,63 @@ header{
 #habilidades div:nth-child(4) {
     width: 65%;
 }
-/************************* Experiencia ****************************/
-.accordion .card-header {
-    background-color: rgb(11, 26, 24);
-    padding: 1rem;
-    color: white;
-}
-.accordion .card-body {
-    background-color: #ccc;
+/************************* Experiencia y Portfolio****************************/
+.btn {
+    background-color:rgba(1, 0, 9, 0.2)!important;
 }
 
-.accordion .card-header{
-    border:1px solid cyan;
+#portfolio .card .card-body {
+    background-color:rgba(1, 0, 9, 1)!important;
 }
-.accordion .card-header:after {
-    font-family: 'FontAwesome';  
-    content: "\f068";
-    float: right; 
-    }
-.accordion .card-header.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\f067"; 
+
+/**************  Carousel Testimonios***********************/
+.slider-area{
+    background: transparent;
+    padding: 50px 0;
+    position: relative;
+    margin: 12px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background: transparent;
+}
+.img-area {
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-area img {
+    width: 100%;
+}
+.carousel-caption {
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+.carousel-caption h3{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.carousel-caption h4{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    font-size: 1rem;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+    
+}
+.carousel-indicators {
+    bottom: -35px;
+}
+.carousel-caption p i{
+    font-size: 2rem;
+    
 }
