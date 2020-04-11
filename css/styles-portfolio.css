@@ -45,23 +45,36 @@ header{
     margin-top: 0.75rem;
 }
 
-#habilidades div:nth-child(n) {
-    height: 40px!important;
+#habilidades .container div:nth-child(n) {
+    height: 35px!important;
     margin-top: 2rem;
 }
 
-#habilidades div:nth-child(1) {
+#habilidades .container h2{
+    margin-top: 2rem;
+}
+
+#habilidades .container div:nth-child(2) {
     width: 80%;
 }
 
-#habilidades div:nth-child(2) {
-    width: 85%;
+#habilidades .container div:nth-child(4) {
+    width: 70%;
 }
-#habilidades div:nth-child(3) {
+#habilidades .container div:nth-child(6) {
+    width: 50%;
+}
+#habilidades .container div:nth-child(8) {
+    width: 90%;
+}
+#habilidades .container div:nth-child(10) {
     width: 75%;
 }
-#habilidades div:nth-child(4) {
-    width: 65%;
+#habilidades .container div:nth-child(12) {
+    width: 50%;
+}
+#habilidades .container div:nth-child(14) {
+    width: 45%;
 }
 /************************* Experiencia y Portfolio****************************/
 .btn {
