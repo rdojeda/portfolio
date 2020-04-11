@@ -11,6 +11,15 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+.h2-title-section{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.65rem;
+    color: white;
+    
+}
+
 /************  Section Header - Main Navigation ***************************/
 header{
     margin-bottom: 5rem;
@@ -77,8 +86,11 @@ header{
     width: 45%;
 }
 /************************* Experiencia y Portfolio****************************/
-.btn {
+#experiencia article button {
     background-color:rgba(1, 0, 9, 0.2)!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    text-transform: capitalize;
+    font-size: 1.25rem!important;
 }
 
 #portfolio .card .card-body {
@@ -136,3 +148,38 @@ header{
     font-size: 2rem;
     
 }
+
+/*************    Section Contact   **********************/
+.card {
+    background: transparent;
+}
+.box-text {
+    background-color:rgba(1, 0, 9, 0.5)!important;
+    padding: 1rem;
+}
+
+/********************  Form  ******************************/
+.md-form label{
+    color: white;
+}
+.md-form i {
+    color: white;
+}
+.md-form input {
+    color: white;
+}
+.md-textarea{
+    color: white;
+}
+#contacto form div button {
+    border: 1px solid white;
+    color: white;
+}
+
+#contacto form div button:hover {
+    background-color:rgba(1, 0, 9, 1);
+    color: white;
+    font-weight: 800;
+}
+
+
