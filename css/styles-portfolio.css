@@ -191,3 +191,13 @@ footer {
 .footer-copyright {
     border-top: 1px solid white;
 }
+
+/*******   Ajustes Media Queries H2 Title Section   *******/
+@media (max-width: 576px) {
+    .h2-title-section {
+        font-size: 2.25rem;
+    }
+    footer a i {
+        font-size: 1rem;
+    }
+}
