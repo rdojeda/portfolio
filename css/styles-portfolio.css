@@ -37,13 +37,13 @@ header{
 }
 
 .top-nav-collapse {
-    background-color: rgb(11, 16, 24)!important;
+    background-color: rgb(1, 0, 9, 1)!important;
 }
 
 
 @media only screen and (max-width: 992px) {
     .navbar {
-        background-color: rgb(11, 16, 24)!important;
+        background-color: rgb(1, 0, 9, 1)!important;
     }
 }
 
@@ -183,3 +183,11 @@ header{
 }
 
 
+/************    Footer    ********************************/
+
+footer {
+    background-color: rgba(1, 0, 9, 1);
+}
+.footer-copyright {
+    border-top: 1px solid white;
+}
