@@ -197,7 +197,7 @@ footer {
     .h2-title-section {
         font-size: 2.25rem;
     }
-    footer a i {
-        font-size: 1rem;
+    footer .fab, .far {
+        font-size: 1.75rem;
     }
 }
