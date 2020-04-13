@@ -201,7 +201,10 @@ footer {
 .footer-copyright {
     border-top: 1px solid white;
 }
-
+footer a i:hover {
+    color: rgb(33, 204, 7)!important;
+    
+}
 /*******   Ajustes Media Queries H2 Title Section   *******/
 @media (max-width: 600px) {
     .h2-title-section, .h2-title {
